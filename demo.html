@@ -771,10 +771,14 @@
     -moz-osx-font-smoothing: grayscale;}
 </pre>
 第三步：挑选相应图标并获取字体编码，应用于页面
-<pre>
-&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;
+
+使用方法有两种
+    <pre>1.直接使用字体图标对应的编码（我们不建议，这样做，因为这个我们需要记住编码；而且看代码时候，不能知道这个图标的含义）
+&lt;i class="iconfont"&gt;&amp;#x33;&lt;/i&gt;</pre>
+    <pre>2.通过伪类：（建议用这个，不用记忆，看代码时，也能知道图标意思）
+    &lt;i class="icon iconfont icon-xiazai"&lt;/i&gt;
 </pre>
-        </div>
+    </div>
 
     </div>
 </body>
